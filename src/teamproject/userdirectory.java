@@ -21,7 +21,7 @@ public class userdirectory {
     private String id;
     private String cityId;
     private String cityName;
-    private String Number;
+    private String Number1;
 
     public String getId() {
         return id;
