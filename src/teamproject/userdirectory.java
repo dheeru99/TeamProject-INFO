@@ -20,7 +20,7 @@ public class userdirectory {
     }
     private String id;
     private String cityId;
-    private String cityNam;
+    private String cityName;
 
     public String getId() {
         return id;
