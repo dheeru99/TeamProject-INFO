@@ -31,7 +31,7 @@ public class userdirectory {
     }
 
     public String getCityIdd() {
-        return cityIdd;
+        return cityId;
     }
 
     public void setCityId(String cityId) {
