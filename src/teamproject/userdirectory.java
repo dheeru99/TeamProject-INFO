@@ -26,7 +26,7 @@ public class userdirectory {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(String idd) {
         this.id = id;
     }
 
