@@ -16,6 +16,7 @@ public class userdirectory {
     public static void main(String[] args) {
         // TODO code application logic here
         //comment..
+        
     }
     private String id;
     private String cityId;
@@ -29,8 +30,8 @@ public class userdirectory {
         this.id = id;
     }
 
-    public String getCityId() {
-        return cityId;
+    public String getCityIdd() {
+        return cityIdd;
     }
 
     public void setCityId(String cityId) {
