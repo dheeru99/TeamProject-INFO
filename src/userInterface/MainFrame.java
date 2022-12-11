@@ -4,6 +4,12 @@
  */
 package userInterface;
 
+import user.UserLogin;
+import taxUnit.TaxPage;
+import incidentUnit.IncidentPage;
+import bankUnit.BankPage;
+import sysAdmin.AdminPage;
+import sinUnit.SinPage;
 import attributes.SystemAdmin;
 import attributes.UserDirectory;
 import java.awt.CardLayout;

@@ -3,12 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/dheer/Documents/NetBeansProjects/TeamProject/src/userInterface/SinAdmin.java</file>
-            <file>file:/C:/Users/dheer/Documents/NetBeansProjects/TeamProject/src/userInterface/SinOfficePage.java</file>
-            <file>file:/C:/Users/dheer/Documents/NetBeansProjects/TeamProject/src/userInterface/SinOfficeLogin.java</file>
-            <file>file:/C:/Users/dheer/Documents/NetBeansProjects/TeamProject/src/userInterface/SinAdminLogin.java</file>
-            <file>file:/C:/Users/dheer/Documents/NetBeansProjects/TeamProject/src/userInterface/SinEmployeeLogin.java</file>
-            <file>file:/C:/Users/dheer/Documents/NetBeansProjects/TeamProject/src/userInterface/SinEmployeePage.java</file>
+            <file>file:/C:/Users/dheer/Documents/NetBeansProjects/TeamProject/src/bankUnit/BankPage.java</file>
+            <file>file:/C:/Users/dheer/Documents/NetBeansProjects/TeamProject/src/bankUnit/BankEmployeePage.java</file>
+            <file>file:/C:/Users/dheer/Documents/NetBeansProjects/TeamProject/src/bankUnit/BankEmployeeLogin.java</file>
         </group>
     </open-files>
 </project-private>
