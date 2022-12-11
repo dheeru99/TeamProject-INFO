@@ -23,5 +23,15 @@ public class ProductCatalog {
     public List<Product> getProductcatalog() {
         return productCatalog;
     }
+    
+    public Product addProduct() {
+        Product p = new Product();
+        productCatalog.add(p);
+        return p;
+    }
+
+    public void removeProduct(Product p) {
+        productCatalog.remove(p);
+    
 
 }
