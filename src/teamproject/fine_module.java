@@ -19,5 +19,16 @@ public class MasterOrderList {
     
     }
     
+    public ArrayList<Order> getOrderList() {
+        return orderList;
+    }
+
+    public void setOrderList(ArrayList<Order> orderList) {
+        this.orderList = orderList;
+    }
+
+    public void addNewOrder(Order order){
+    this.orderList.add(order);
+    }
     
 }
