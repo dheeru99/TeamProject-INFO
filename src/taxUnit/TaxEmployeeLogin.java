@@ -50,6 +50,7 @@ public class TaxEmployeeLogin extends javax.swing.JPanel {
         jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
 
         setLayout(null);
 
@@ -59,31 +60,29 @@ public class TaxEmployeeLogin extends javax.swing.JPanel {
             }
         });
         add(txt1);
-        txt1.setBounds(580, 70, 250, 40);
+        txt1.setBounds(890, 280, 250, 40);
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 51, 51));
         jLabel3.setText("USERNAME");
         add(jLabel3);
-        jLabel3.setBounds(350, 70, 200, 40);
+        jLabel3.setBounds(660, 280, 200, 40);
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel2.setText(":");
         add(jLabel2);
-        jLabel2.setBounds(550, 70, 13, 40);
+        jLabel2.setBounds(860, 280, 13, 40);
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 51, 51));
         jLabel4.setText("PASSWORD");
         add(jLabel4);
-        jLabel4.setBounds(350, 120, 200, 40);
+        jLabel4.setBounds(660, 330, 200, 40);
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel5.setText(":");
         add(jLabel5);
-        jLabel5.setBounds(550, 120, 13, 40);
+        jLabel5.setBounds(860, 330, 13, 40);
         add(txt2);
-        txt2.setBounds(580, 120, 250, 40);
+        txt2.setBounds(890, 330, 250, 40);
 
         radio.setBackground(new java.awt.Color(255, 255, 255));
         radio.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
@@ -94,7 +93,7 @@ public class TaxEmployeeLogin extends javax.swing.JPanel {
             }
         });
         add(radio);
-        radio.setBounds(840, 120, 60, 40);
+        radio.setBounds(1150, 330, 60, 40);
 
         jButton2.setBackground(new java.awt.Color(255, 0, 102));
         jButton2.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
@@ -105,7 +104,7 @@ public class TaxEmployeeLogin extends javax.swing.JPanel {
             }
         });
         add(jButton2);
-        jButton2.setBounds(700, 180, 100, 40);
+        jButton2.setBounds(1010, 390, 100, 40);
 
         jButton3.setBackground(new java.awt.Color(0, 102, 255));
         jButton3.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
@@ -116,7 +115,7 @@ public class TaxEmployeeLogin extends javax.swing.JPanel {
             }
         });
         add(jButton3);
-        jButton3.setBounds(580, 180, 100, 40);
+        jButton3.setBounds(890, 390, 100, 40);
 
         jButton4.setBackground(new java.awt.Color(0, 102, 255));
         jButton4.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
@@ -127,14 +126,17 @@ public class TaxEmployeeLogin extends javax.swing.JPanel {
             }
         });
         add(jButton4);
-        jButton4.setBounds(350, 180, 100, 40);
+        jButton4.setBounds(660, 390, 100, 40);
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 51, 51));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("TAX_EMPLOYEE LOGIN");
         add(jLabel1);
-        jLabel1.setBounds(350, 20, 480, 40);
+        jLabel1.setBounds(660, 230, 480, 40);
+
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/2975879.png"))); // NOI18N
+        add(jLabel6);
+        jLabel6.setBounds(0, 0, 1980, 1080);
     }// </editor-fold>//GEN-END:initComponents
 
     private void txt1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_txt1MouseClicked
@@ -225,6 +227,7 @@ public class TaxEmployeeLogin extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
     private javax.swing.JRadioButton radio;
     private javax.swing.JTextField txt1;
     private javax.swing.JPasswordField txt2;

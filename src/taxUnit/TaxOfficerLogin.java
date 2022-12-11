@@ -52,7 +52,9 @@ public class TaxOfficerLogin extends javax.swing.JPanel {
         jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
 
+        setPreferredSize(new java.awt.Dimension(1980, 1080));
         setLayout(null);
 
         txt1.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -61,31 +63,29 @@ public class TaxOfficerLogin extends javax.swing.JPanel {
             }
         });
         add(txt1);
-        txt1.setBounds(720, 80, 250, 40);
+        txt1.setBounds(920, 270, 250, 40);
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 51, 51));
         jLabel3.setText("USERNAME");
         add(jLabel3);
-        jLabel3.setBounds(490, 80, 200, 40);
+        jLabel3.setBounds(690, 270, 200, 40);
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel2.setText(":");
         add(jLabel2);
-        jLabel2.setBounds(690, 80, 13, 40);
+        jLabel2.setBounds(890, 270, 13, 40);
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 51, 51));
         jLabel4.setText("PASSWORD");
         add(jLabel4);
-        jLabel4.setBounds(490, 130, 200, 40);
+        jLabel4.setBounds(690, 320, 200, 40);
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel5.setText(":");
         add(jLabel5);
-        jLabel5.setBounds(690, 130, 13, 40);
+        jLabel5.setBounds(890, 320, 13, 40);
         add(txt2);
-        txt2.setBounds(720, 130, 250, 40);
+        txt2.setBounds(920, 320, 250, 40);
 
         radio.setBackground(new java.awt.Color(255, 255, 255));
         radio.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
@@ -96,7 +96,7 @@ public class TaxOfficerLogin extends javax.swing.JPanel {
             }
         });
         add(radio);
-        radio.setBounds(980, 130, 60, 40);
+        radio.setBounds(1180, 320, 60, 40);
 
         jButton2.setBackground(new java.awt.Color(255, 0, 102));
         jButton2.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
@@ -107,7 +107,7 @@ public class TaxOfficerLogin extends javax.swing.JPanel {
             }
         });
         add(jButton2);
-        jButton2.setBounds(840, 190, 100, 40);
+        jButton2.setBounds(1040, 380, 100, 40);
 
         jButton3.setBackground(new java.awt.Color(0, 102, 255));
         jButton3.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
@@ -118,7 +118,7 @@ public class TaxOfficerLogin extends javax.swing.JPanel {
             }
         });
         add(jButton3);
-        jButton3.setBounds(720, 190, 100, 40);
+        jButton3.setBounds(920, 380, 100, 40);
 
         jButton4.setBackground(new java.awt.Color(0, 102, 255));
         jButton4.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
@@ -129,14 +129,17 @@ public class TaxOfficerLogin extends javax.swing.JPanel {
             }
         });
         add(jButton4);
-        jButton4.setBounds(490, 190, 100, 40);
+        jButton4.setBounds(690, 380, 100, 40);
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 51, 51));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("TAX_OFFICER LOGIN");
         add(jLabel1);
-        jLabel1.setBounds(490, 30, 480, 40);
+        jLabel1.setBounds(690, 220, 480, 40);
+
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/2975879.png"))); // NOI18N
+        add(jLabel6);
+        jLabel6.setBounds(0, 0, 1980, 1080);
     }// </editor-fold>//GEN-END:initComponents
 
     private void txt1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_txt1MouseClicked
@@ -227,6 +230,7 @@ public class TaxOfficerLogin extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
     private javax.swing.JRadioButton radio;
     private javax.swing.JTextField txt1;
     private javax.swing.JPasswordField txt2;
