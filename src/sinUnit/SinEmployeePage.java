@@ -127,13 +127,13 @@ public class SinEmployeePage extends javax.swing.JPanel {
        
      
         Statement st= cn.createStatement();
-      String sql = "select * from SIN_OFFICER";
+      String sql = "select * from SIN_EMP";
       ResultSet ps= st.executeQuery(sql);
       
 
       
           while(ps.next()){
-           
+           if(ps.getString("ASSIGNED").equalsIgnoreCase(id)){
            Object[] row = new Object[20];
           row[0]=ps.getString("NAME");
           row[1]=ps.getString("SIN");
@@ -142,7 +142,7 @@ public class SinEmployeePage extends javax.swing.JPanel {
           row[4]=ps.getString("STATUS");
           row[5]=ps.getString("REFERRED");
           tbl.addRow(row);
-         
+           }
           }
        }catch(Exception e){
           JOptionPane.showMessageDialog(this,e);

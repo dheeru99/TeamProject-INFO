@@ -49,6 +49,7 @@ public class IncidentEmployeeLogin extends javax.swing.JPanel {
         jButton2 = new javax.swing.JButton();
         jButton1 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
+        jLabel6 = new javax.swing.JLabel();
 
         setLayout(null);
 
@@ -58,38 +59,35 @@ public class IncidentEmployeeLogin extends javax.swing.JPanel {
             }
         });
         add(txt1);
-        txt1.setBounds(592, 61, 250, 40);
+        txt1.setBounds(1010, 220, 250, 40);
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 51, 51));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("INCIDENT EMPLOYEE LOGIN");
         add(jLabel1);
-        jLabel1.setBounds(292, 11, 550, 40);
+        jLabel1.setBounds(710, 170, 550, 40);
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel2.setText(":");
         add(jLabel2);
-        jLabel2.setBounds(562, 61, 13, 40);
+        jLabel2.setBounds(980, 220, 13, 40);
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 51, 51));
         jLabel3.setText("USERNAME");
         add(jLabel3);
-        jLabel3.setBounds(362, 61, 200, 40);
+        jLabel3.setBounds(780, 220, 200, 40);
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 51, 51));
         jLabel4.setText("PASSWORD");
         add(jLabel4);
-        jLabel4.setBounds(362, 111, 200, 40);
+        jLabel4.setBounds(780, 270, 200, 40);
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel5.setText(":");
         add(jLabel5);
-        jLabel5.setBounds(562, 111, 13, 40);
+        jLabel5.setBounds(980, 270, 13, 40);
         add(txt2);
-        txt2.setBounds(592, 111, 250, 40);
+        txt2.setBounds(1010, 270, 250, 40);
 
         radio.setBackground(new java.awt.Color(255, 255, 255));
         radio.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
@@ -100,7 +98,7 @@ public class IncidentEmployeeLogin extends javax.swing.JPanel {
             }
         });
         add(radio);
-        radio.setBounds(852, 111, 60, 40);
+        radio.setBounds(1270, 270, 60, 40);
 
         jButton2.setBackground(new java.awt.Color(255, 0, 102));
         jButton2.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
@@ -111,7 +109,7 @@ public class IncidentEmployeeLogin extends javax.swing.JPanel {
             }
         });
         add(jButton2);
-        jButton2.setBounds(712, 171, 100, 40);
+        jButton2.setBounds(1130, 330, 100, 40);
 
         jButton1.setBackground(new java.awt.Color(0, 102, 255));
         jButton1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
@@ -122,7 +120,7 @@ public class IncidentEmployeeLogin extends javax.swing.JPanel {
             }
         });
         add(jButton1);
-        jButton1.setBounds(592, 171, 100, 40);
+        jButton1.setBounds(1010, 330, 100, 40);
 
         jButton3.setBackground(new java.awt.Color(0, 0, 0));
         jButton3.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
@@ -134,7 +132,11 @@ public class IncidentEmployeeLogin extends javax.swing.JPanel {
             }
         });
         add(jButton3);
-        jButton3.setBounds(362, 231, 100, 40);
+        jButton3.setBounds(780, 390, 100, 40);
+
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/emergency-team-flat-style_23-2147947384.png"))); // NOI18N
+        add(jLabel6);
+        jLabel6.setBounds(0, 0, 1980, 1080);
     }// </editor-fold>//GEN-END:initComponents
 
     private void txt1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_txt1MouseClicked
@@ -227,6 +229,7 @@ public class IncidentEmployeeLogin extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
     private javax.swing.JRadioButton radio;
     private javax.swing.JTextField txt1;
     private javax.swing.JPasswordField txt2;

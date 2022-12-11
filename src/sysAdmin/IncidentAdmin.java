@@ -107,7 +107,7 @@ public class IncidentAdmin extends javax.swing.JPanel {
         jScrollPane2.setViewportView(txt2);
 
         add(jScrollPane2);
-        jScrollPane2.setBounds(190, 260, 266, 185);
+        jScrollPane2.setBounds(190, 260, 266, 70);
 
         jButton3.setBackground(new java.awt.Color(255, 0, 51));
         jButton3.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
