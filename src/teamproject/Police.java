@@ -31,5 +31,14 @@ public class Product {
     public String getProdName() {
         return prodName;
     }
+   
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public int getAvail() {
+        return avail;
+    }
+
 
 }
