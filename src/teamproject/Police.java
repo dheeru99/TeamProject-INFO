@@ -49,6 +49,19 @@ public class Product {
     public int getModelNumber() {
         return modelNumber;
     }
+    
+    public void setModelNumber(int modelNumber) {
+        this.modelNumber = modelNumber;
+    }
+
+
+    public void setProdName(String prodName) {
+        this.prodName = prodName;
+    }
+
+    public double getPrice() {
+        return price;
+    }
 
 
 }
