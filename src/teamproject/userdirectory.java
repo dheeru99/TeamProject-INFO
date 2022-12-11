@@ -4,10 +4,7 @@
  */
 package teamproject;
 
-/**
- *
- * @author ranji
- */
+
 public class userdirectory {
 
     /**
