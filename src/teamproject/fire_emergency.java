@@ -32,6 +32,15 @@ public class ProductCatalog {
 
     public void removeProduct(Product p) {
         productCatalog.remove(p);
-    
+    }
+
+    public Product searchProduct(int id) {
+        for (Product product : productCatalog) {
+            if (product.getModelNumber() == id) {
+                return product;
+            }
+        }
+        return null;
+    }
 
 }
