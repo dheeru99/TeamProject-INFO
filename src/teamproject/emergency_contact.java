@@ -31,6 +31,13 @@ public class OrderItem {
         return salesPrice;
     }
 
+    public void setSalesPrice(double salesPrice) {
+        this.salesPrice = salesPrice;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
     
     
 }
