@@ -7,7 +7,7 @@ package attributes;
 /**
  *
  * @author dheer
- */
+ */   
 public class SystemAdmin {
     private UserDirectory userDirectory;
 
@@ -22,7 +22,7 @@ public class SystemAdmin {
     public void setUserDirectory(UserDirectory userDirectory) {
         this.userDirectory = userDirectory;
     }
-    
-    
-    
+             
+               
 }
+      
